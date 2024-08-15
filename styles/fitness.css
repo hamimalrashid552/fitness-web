@@ -29,7 +29,7 @@
 }
 
 .header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(0.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 
 }
 
@@ -61,6 +61,10 @@
     text-decoration: none;
     font-size: 18px;
     color: rgb(255, 255, 255);
+}
+
+.menu{
+    display: none;
 }
 
 .home-deco {
@@ -148,4 +152,28 @@
     line-height: 0;
     margin-left: -100px;
     margin-top: -150px;
+}
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+    .nav-item{
+        display: none;
+    }
+    
+    .menu{
+        display: contents;
+        width: 24px;
+        height: 24px;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-image{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
 }
