@@ -11,13 +11,13 @@
 .style-script-regular {
     font-family: "Style Script", cursive;
     font-weight: 400;
-    font-style: normal;
+    font-size: 4.8rem;
+    font-style: italic;
 }
 
 .background {
-    /* background: rgb(34, 34, 34); */
+    background: rgb(34,34,34);
     /* background: black; */
-
 }
 
 .text-white {
@@ -30,6 +30,7 @@
 
 .header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+
 }
 
 .display-flex {
@@ -39,14 +40,14 @@
 .brand {
     color: rgb(230, 83, 60);
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2.2rem;
     font-style: italic;
 }
 
 .nav-bar {
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -68,4 +69,83 @@
     padding: 8px 20px 8px 20px;
     border-radius: 45px;
     background-color: rgb(230, 83, 60);
+}
+
+.banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.banner-title {
+    font-weight: 900;
+    font-size: 4.8rem;
+}
+
+
+.button {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn-secondary {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.card-over-img1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 190px;
+    height: 90px;
+    line-height: 0;
+    padding: 17px 23px 16px 24px;
+    margin-bottom: -200px;
+    margin-left: 200px;
+}
+
+.red-circle {
+    border-radius: 45px;
+    background: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+}
+
+.card-over-img2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+    line-height: 0;
+    margin-left: -100px;
+    margin-top: -150px;
 }
