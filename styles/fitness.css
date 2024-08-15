@@ -16,8 +16,7 @@
 }
 
 .background {
-    background: rgb(34,34,34);
-    /* background: black; */
+    background: rgb(17, 17, 17);
 }
 
 .text-white {
@@ -29,8 +28,8 @@
 }
 
 .header {
-    background: linear-gradient(0.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-
+    background: linear-gradient(0.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.2 ) 100%);
+    padding-bottom: 60px;
 }
 
 .display-flex {
@@ -153,6 +152,7 @@
     margin-left: -100px;
     margin-top: -150px;
 }
+
 
 
 /* responsive media query */
