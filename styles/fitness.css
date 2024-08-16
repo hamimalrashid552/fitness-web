@@ -249,7 +249,7 @@ td {
 
 
 
-.bmi-input >form> input {
+.bmi-input>form>input {
     width: 282.5px;
     height: 48px;
     border-radius: 8px;
@@ -260,20 +260,51 @@ td {
     padding-left: 20px;
 }
 
-#row-span{
+#row-span {
     width: 595px;
 }
 
-form > button{
+form>button {
     margin-top: 20px;
 }
 
-#bmi-background{
+#bmi-background {
     background: rgb(34, 34, 34);
-    height: 400px ;
+    height: 400px;
+
+}
+
+.team-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-part {
+    text-align: center;
+}
+
+.team-photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 18px;
+    padding-top: 20px; 
+    padding-left: 30px;
+}
+
+.team-photo> div >img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    margin: 20px;
     
 }
 
+.trainer-name{
+    margin-top: -115px;
+    margin-left: 35px;
+}
 
 
 
@@ -332,20 +363,32 @@ form > button{
     }
 
 
-    .bmi-calculator{
+    .bmi-calculator {
         flex-direction: column;
     }
 
-    #bmi-background{
+    #bmi-background {
         height: auto;
     }
 
-    .bmi-input > form{
+    .bmi-input>form {
         display: flex;
         flex-direction: column;
     }
 
-    #row-span{
+    #row-span {
         width: 285px;
+    }
+
+    .team-photo{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-photo> div >img {
+        width: 450px;
+        height: 272px;
+        border-radius: 18px;
+        margin: 20px;
+        
     }
 }
