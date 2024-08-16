@@ -170,7 +170,6 @@
 }
 
 .habit-section{
-     
     max-width: 1200px;
     margin: 100px auto;
 }
@@ -209,6 +208,14 @@
         display: none;
     }
 
+    .nav-links {
+        border: none;
+    }
+
+   .brand{
+    margin-right: 300px;
+   }
+
     .menu {
         display: contents;
         width: 24px;
@@ -223,4 +230,18 @@
         margin-top: 100px;
         margin-left: 100px;
     }
+
+    .habit-section{
+        flex-direction: column;
+
+    }
+    .habit-title{
+        line-height: 2;
+        text-align: center;
+    }
+
+    .habit-image-card{
+        flex-direction: column;
+    }
+
 }
