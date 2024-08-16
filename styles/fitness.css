@@ -268,7 +268,7 @@ form>button {
     margin-top: 20px;
 }
 
-#bmi-background {
+#bmi-background, footer {
     background: rgb(34, 34, 34);
     height: 400px;
 
@@ -310,6 +310,37 @@ form>button {
 
 
 
+.footer{
+    max-width: 1200px;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.get-started{
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.anchor > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+hr{
+    max-width: 930px;
+    margin-top: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
+}
 
 /* responsive media query */
 
@@ -395,5 +426,18 @@ form>button {
 
     .customer-image-card{
         flex-direction: column;
+    }
+
+    footer{
+        background: rgb(34, 34, 34);
+        height: 800px;
+        
+    }
+    .footer{
+        flex-direction: column;
+    }
+
+    .get-started{
+        margin-left: -400px;
     }
 }
